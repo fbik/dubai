@@ -1,0 +1,39 @@
+.main {
+    width: 40%;
+    margin-right: 30%;
+    margin-bottom: 30%;
+    background: salmon;
+    border: 2px solid silver;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration-color: deeppink;
+    position: relative;
+    top: -10px;
+}
+
+ul {
+  list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-right: 25%;
+    margin-bottom: 40px;
+}
+
+li {
+    display: inline;
+    background: darkkhaki;
+    border: 2px solid saddlebrown;
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+li:not(:last-of-type) {
+    margin-right: 20px;
+}
+li:hover {
+    color: royalblue;
+    background: red;
+    border-radius: 5px;
+
+}

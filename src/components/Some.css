@@ -1,0 +1,19 @@
+.some {
+    background: red;
+    color: gold;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    position: center;
+    right: 20px;
+    bottom: 20px;
+}
+
+.some:hover {
+    color: darkblue;
+    text-decoration: overline;
+    text-decoration-color: crimson;
+
+}
